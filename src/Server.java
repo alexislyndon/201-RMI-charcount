@@ -10,10 +10,21 @@ public class Server implements Hi {
         
     public Server() {}
 
+    
+    /** 
+     * @param message
+     * @return int
+     * Returns the number of characters in a string using the String.length() method.
+     * Counts all characters including whitespaces.
+     */
     public int countChars(String message) {
         return message.length();
     }
         
+    
+    /** 
+     * @param args[]
+     */
     public static void main(String args[]) {
         
         try {
