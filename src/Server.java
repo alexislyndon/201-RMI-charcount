@@ -1,4 +1,3 @@
-//package example.hello;
         
 import java.rmi.registry.Registry;
 import java.rmi.registry.LocateRegistry;
